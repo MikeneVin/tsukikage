@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>月影 TSUKIKAGE — 달그림자의 검</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='%23b8321f'/><text x='32' y='44' font-size='36' text-anchor='middle' fill='%23f4ecdc' font-family='serif'>月</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Yuji+Syuku&family=Zen+Antique&display=swap" />
+<style>html,body{background:#0b0a10;height:100%;margin:0;overflow:hidden}#game-canvas{width:100vw;height:100vh;display:block}#boot{z-index:10000;color:#efe4cc;background:radial-gradient(60% 45% at 50% 42%,#781e182e,#0000 70%),radial-gradient(120% 90%,#17141c 0%,#0b0a10 60%,#050407 100%);flex-direction:column;justify-content:center;align-items:center;font-family:Nanum Myeongjo,Noto Serif KR,Batang,serif;transition:opacity .9s;display:flex;position:fixed;inset:0}#boot.done{opacity:0;pointer-events:none}#boot:before{content:"";opacity:.07;pointer-events:none;mix-blend-mode:overlay;background-image:repeating-linear-gradient(0deg,#ffffff80 0 1px,#0000 1px 3px),repeating-linear-gradient(90deg,#ffffff59 0 1px,#0000 1px 4px);position:absolute;inset:0}.bt-moon{background:radial-gradient(circle at 42% 38%,#fff6de 0%,#efdcb2 55%,#c9ae7c 100%);border-radius:50%;width:11vmin;height:11vmin;margin-bottom:3.2vmin;position:relative;overflow:hidden;box-shadow:0 0 5vmin #ffe2aa40,0 0 1.2vmin #ffecc880}.bt-moon:after{content:"";background:#0e0c12;border-radius:50%;animation:5.5s ease-in-out infinite bt-phase;position:absolute;inset:-2%}@keyframes bt-phase{0%{transform:translate(62%)}50%{transform:translate(26%)}to{transform:translate(62%)}}.bt-title{letter-spacing:.08em;text-shadow:0 0 2.4vmin #000c;font-family:Yuji Syuku,Zen Antique,Yu Mincho,serif;font-size:10vmin;line-height:1}.bt-sub{letter-spacing:.6em;opacity:.7;margin-top:1.4vmin;font-size:1.7vmin}.bt-bar{background:#efe4cc1f;border-radius:1vmin;width:min(46vmin,80vw);height:.55vmin;min-height:3px;margin-top:6vmin;position:relative;overflow:hidden}.bt-bar i{transform-origin:0;background:linear-gradient(90deg,#7e1a14,#c0321f 70%,#f07a4a);transition:transform .35s;position:absolute;inset:0;transform:scaleX(0);box-shadow:0 0 1.2vmin #dc462899}.bt-label{letter-spacing:.12em;opacity:.85;min-height:2vmin;margin-top:1.8vmin;font-size:1.6vmin}.bt-pct{font-variant-numeric:tabular-nums;opacity:.6;margin-left:.8em}.bt-tip{text-align:center;opacity:.55;width:min(70vmin,90vw);font-size:1.75vmin;line-height:1.7;transition:opacity .6s;position:absolute;bottom:7vh;left:50%;transform:translate(-50%)}.bt-tip b{color:#e9a07a;font-weight:700}.bt-press{letter-spacing:.3em;opacity:0;margin-top:2.2vmin;font-size:1.9vmin;transition:opacity .6s}#boot.ready .bt-press{opacity:1;animation:1.8s ease-in-out infinite bt-pulse}#boot.ready .bt-label{opacity:.45}@keyframes bt-pulse{0%,to{opacity:.45}50%{opacity:1}}.bt-err{white-space:pre-wrap;color:#ffb0a0;background:#0009;max-height:50vh;padding:1em;font:12px/1.4 monospace;display:none;position:absolute;top:2vmin;left:2vmin;right:2vmin;overflow:auto}</style>
+  <script type="module" crossorigin src="./assets/index-ByZ63pVG.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DS20b-ev.css">
+</head>
+<body>
+<div id="boot">
+  <div class="bt-moon"></div>
+  <div class="bt-title">月影</div>
+  <div class="bt-sub">TSUKIKAGE · 달그림자의 검</div>
+  <div class="bt-bar"><i></i></div>
+  <div class="bt-label"><span class="bt-text">먹을 갈고 있습니다…</span><span class="bt-pct">0%</span></div>
+  <div class="bt-press">아무 키나 누르거나 클릭하여 시작</div>
+  <div class="bt-tip"></div>
+  <pre class="bt-err"></pre>
+</div>
+</body>
+</html>
